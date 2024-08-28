@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 :root {
   --background-default: #F5F4F0;
   --border-primary: #d9d9d9;
@@ -19,13 +23,37 @@
 body {
   margin: 80px;
 }
+main {
+  display: flex;
+  flex-direction: column; /* Organize os elementos verticalmente */
+  gap: 40px; 
+}
+.headline {
+  margin-bottom: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--text-headline);
+}
 h1 {
   font-size: 36px;
   font-weight: bold;
+  color: var(--text-primary);
 }
+
+img {
+  width: 100%;
+  border-radius: 28px;
+}
+.img-description {
+  text-align: center;
+  color: tex;
+}
+
 h2 {
   font-size: 32px;
   font-weight: bold;
+  color: var(--text-primary);
 }
 h3 {
   font-size: 28px;
@@ -34,23 +62,51 @@ h3 {
 p {
   font-size: 16px;
   font-weight: normal;
-}
-ul ::marker{
   color: var(--text-secondary);
+}
+
+#intro-list {
+  margin: 64px 0px;
+}
+#title-list {
+  margin-bottom: 8px;
+}
+ul {
+  color: var(--text-secondary);
+  list-style: disc;
+  font-weight: bold;
+}
+ul :only-child{
+  color: var(--accent-blue);
+}
+ul li{
+  color: var(--accent-purple);
+}
+ul :nth-child(2){
+  color: var(--accent-pink);
+}
+ul :nth-child(3){
+  color: var(--accent-orange);
+}
+ol ::marker {
+  color: var(--text-primary);
 }
 ol, ul {
   list-style-position: inside;
 }
-.divider {
-  border-bottom: 1px var(--border-primary);
-}
-.headline {
-  font-size: 16px;
+.good-for {
   font-weight: bold;
-  text-transform: uppercase;
-  color: var(--text-headline);
+}
+
+.divider {
+  border-bottom: 1px solid var(--border-primary);
 }
 .subtitle {
   font-size: 16px;
   font-style: italic;
+}
+.creditos {
+  color: var(--text-secondary);
+  text-align: center;
+  align-items: center;
 }
