@@ -25,6 +25,7 @@ body {
 }
 main {
   display: flex;
+  margin: 88px;
   flex-direction: column; /* Organize os elementos verticalmente */
   gap: 40px; 
 }
@@ -41,7 +42,7 @@ h1 {
   color: var(--text-primary);
 }
 
-img {
+div img {
   width: 100%;
   border-radius: 28px;
 }
@@ -88,11 +89,21 @@ ul :nth-child(2){
 ul :nth-child(3){
   color: var(--accent-orange);
 }
+ol {
+  display: flex;
+  flex-direction: column; /* Organize os elementos verticalmente */
+  gap: 48px; 
+}
 ol ::marker {
   color: var(--text-primary);
 }
 ol, ul {
   list-style-position: inside;
+}
+.content-card {
+  display: flex;
+  flex-direction: column; /* Organize os elementos verticalmente */
+  gap: 4px; 
 }
 .good-for {
   font-weight: bold;
@@ -109,4 +120,17 @@ ol, ul {
   color: var(--text-secondary);
   text-align: center;
   align-items: center;
+}
+.footer-description{
+  text-align: center;
+}
+footer {
+  width: 100%;
+  line-height: 150%;
+  text-align: center;
+  word-break: break-all;
+}
+footer img {
+  margin: 0 4px;
+  vertical-align: middle;
 }
