@@ -1,0 +1,56 @@
+:root {
+  --background-default: #F5F4F0;
+  --border-primary: #d9d9d9;
+  --text-primary: #1b1b1b;
+  --text-secondary: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #E1624F;
+  
+  --accent-blue: #0C51A7;
+  --accent-orange: #E95E10;
+  --accent-pink: #E5245E;
+  --accent-purple: #591B98;
+
+  font-family: "Open Sans", sans-serif;
+  
+  background-color: var(--background-default);
+}
+
+body {
+  margin: 80px;
+}
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+p {
+  font-size: 16px;
+  font-weight: normal;
+}
+ul ::marker{
+  color: var(--text-secondary);
+}
+ol, ul {
+  list-style-position: inside;
+}
+.divider {
+  border-bottom: 1px var(--border-primary);
+}
+.headline {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--text-headline);
+}
+.subtitle {
+  font-size: 16px;
+  font-style: italic;
+}
