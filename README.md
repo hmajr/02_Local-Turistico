@@ -1,24 +1,62 @@
-**Local Turístico - Busan**
+<h1 align="center" style="font-weight: bold;">HTML Hello World 💻</h1>
 
-Este projeto é uma página web que apresenta informações turísticas sobre Busan, na Coreia do Sul. Com um design visualmente atraente e conteúdo informativo, o site destaca os principais pontos turísticos da cidade, incluindo templos históricos, parques e opções de lazer para diferentes públicos.
+<p align="center">
+ <a href="#tech">Technologies</a> • 
+ <a href="#started">Getting Started</a> • 
+  <a href="#colab">Collaborators</a> •
+ <a href="#contribute">Contribute</a>
+</p>
 
-**Conteúdo**
+<p align="center">
+    <b>Smple fictional bus travel company (Busan) page for application of knowledge in html/css ising images</b>
+</p>
 
-Apresentação: A página oferece uma visão geral de Busan, destacando sua rica cultura e atrativos turísticos.
-Destinos imperdíveis: Apresenta três destinos imperdíveis em Busan, com descrições detalhadas e fotos.
-Recomendações: Inclui sugestões de atividades para diferentes perfis de viajantes, como casais, famílias e pessoas com orçamento limitado.
-Design responsivo: A página se adapta a diferentes tamanhos de tela, proporcionando uma boa experiência de navegação em dispositivos móveis e desktops.
+<p align="center">
+     <a href="https://hmajr.github.io/02_Local-Turistico/">📱 Visit this Project</a>
+</p>
 
-**Tecnologias utilizadas**
+<h2 id="layout">🎨 Layout</h2>
 
-HTML: Estrutura da página.
-CSS: Estilização e layout.
+<p align="center">
+    <img src="./screenshot.png" alt="Image Example" width="400px">
+</p>
 
-**Como executar o projeto**
+<h2 id="technologies">💻 Technologies</h2>
 
-Clone o repositório: git clone [https://github.com/hmjr/02_local-turistico-busan.git](https://github.com/hmajr/02_Local-Turistico)
-Abra o arquivo index.html em seu navegador.
+- HTML
+- CSS
 
-**Créditos**
+<h2 id="started">🚀 Getting started</h2>
 
-Trilha Fullstack - Rocketseat
+Open index.html from some web browser
+
+<h3>Prerequisites</h3>
+
+No prerequisites!
+
+<h3>Cloning</h3>
+
+How to clone your project
+
+```bash
+git clone https://github.com/hmajr/02_Local-Turistico
+```
+
+<h3>Starting</h3>
+
+How to start your project
+
+```bash
+cd 02_Local-Turistico
+```
+
+<h2 id="colab">🤝 Collaborators</h2>
+
+Special thank for Rocketseat - Fullstack 
+
+<h3>Documentations that might help</h3>
+
+[📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
+
+[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+
