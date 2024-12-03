@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 :root {
   --background-default: #F5F4F0;
@@ -77,16 +78,16 @@ ul {
   list-style: disc;
   font-weight: bold;
 }
-ul :only-child{
+ul:only-child{
   color: var(--accent-blue);
 }
 ul li{
   color: var(--accent-purple);
 }
-ul :nth-child(2){
+ul:nth-child(2){
   color: var(--accent-pink);
 }
-ul :nth-child(3){
+ul:nth-child(3){
   color: var(--accent-orange);
 }
 ol {
@@ -94,7 +95,7 @@ ol {
   flex-direction: column; /* Organize os elementos verticalmente */
   gap: 48px; 
 }
-ol ::marker {
+ol::marker {
   color: var(--text-primary);
 }
 ol, ul {
