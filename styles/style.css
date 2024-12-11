@@ -136,7 +136,7 @@ footer img {
   vertical-align: middle;
 }
 
-@media (width <= 40em ){
+@media (width <= 55em ){
   body{
     margin: 1rem;
   }
@@ -148,9 +148,8 @@ footer img {
     text-align: justify;
   }
 
-  footer{
-    p{
-      
+  #credit{
+    & p{
       text-align: center;
     }
   }
