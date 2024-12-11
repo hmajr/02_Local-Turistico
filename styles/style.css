@@ -135,3 +135,23 @@ footer img {
   margin: 0 4px;
   vertical-align: middle;
 }
+
+@media (width <= 40em ){
+  body{
+    margin: 1rem;
+  }
+
+  main{
+    margin: 1.5rem;
+  }
+  p{
+    text-align: justify;
+  }
+
+  footer{
+    p{
+      
+      text-align: center;
+    }
+  }
+}
